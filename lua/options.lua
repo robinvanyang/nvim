@@ -13,9 +13,9 @@ opt.number = true
 opt.cursorline = true
 
 -- use system clipboard
-opt.clipboard = 'unnamedplus' 
+opt.clipboard:append("unnamedplus")
 
--- allow the mouse to be used in NVim
+-- 启用鼠标
 opt.mouse = 'a'
 
 
@@ -31,4 +31,6 @@ opt.expandtab = true
 -- 自动缩进
 opt.autoindent = true
 
-
+-- 默认新窗口在右侧和下侧
+opt.splitright = true
+opt.splitbelow = true
